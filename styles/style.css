@@ -199,3 +199,28 @@ header, #hot-deal {
     height: auto;
     display: block;
 }
+
+#newsletter {
+    margin: 128px 0;
+}
+
+.newsletter-bg {
+    background-image: url('../images/newsletter-bg.png');
+    padding: 122px 0;
+}
+
+#newsletter form {
+    max-width: 800px;
+    margin: 20px auto;
+    display: flex;
+    gap: 5px;
+}
+
+#newsletter form input {
+    flex-grow: 1;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 18px;
+    outline: 1px solid #eb9cad;
+}
